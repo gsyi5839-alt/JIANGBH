@@ -1,0 +1,79 @@
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+src/runtime/logs/
+
+# Build outputs
+bin/
+build/
+dist/
+*.exe
+*.out
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Node.js dependencies (if any)
+node_modules/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Go binaries and modules
+go.work
+go.work.sum
+
+# Docker
+docker-compose.override.yml
+
+# iOS build artifacts
+ios手机系统/EpusdtPay/build/
+ios手机系统/Pods/
+ios手机系统/*.xcworkspace
+ios手机系统/*.xcodeproj/xcuserdata/
+ios手机系统/*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Tools and utilities
+tools/redis.tar.gz
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Embedded git repositories
+EPUSDT/.git
+EPUSDT/ios手机系统/EpusdtPay/EpusdtPay/.git
